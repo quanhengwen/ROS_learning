@@ -1,0 +1,25 @@
+#include "stm32f0xx_hal.h"
+#include "usbd_cdc_if.h"
+#include "usb_task.h"
+
+
+extern USBD_HandleTypeDef hUsbDeviceFS;
+extern uint8_t UserRxBufferFS[APP_RX_DATA_SIZE];
+/* USB_SendMess function */
+void USB_SendMess(void)
+{
+    uint16_t timeout = 0xffff;
+    uint8_t temp;
+
+	uint32_t buffsize; 
+	if(UserTxBufPtrOut != UserTxBufPtrIn) 
+		{
+if(UserTxBufPtrOut > UserTxBufPtrIn) /* Rollback */ 
+{ 
+	buffsize= UserTxBufPtrIn; 
+} 
+else { 
+buffsize = UserTxBufPtrIn - UserTxBufPtrOut; 
+}
+
+}

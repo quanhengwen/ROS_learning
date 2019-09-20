@@ -1,0 +1,10 @@
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\bin\Debug\AirDetect.exe
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\bin\Debug\AirDetect.pdb
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\bin\Debug\LBIndustrialCtrls.pdb
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\obj\x86\Debug\AirDetect.Form1.resources
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\obj\x86\Debug\AirDetect.Properties.Resources.resources
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\obj\x86\Debug\AirDetect.csproj.GenerateResource.Cache
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\obj\x86\Debug\AirDetect.exe
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\obj\x86\Debug\AirDetect.pdb
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\bin\Debug\LBIndustrialCtrls.dll
+D:\项目\空气质量检测仪\程序\上位机V1\AirDetect\AirDetect\obj\x86\Debug\AirDetect.csprojResolveAssemblyReference.cache

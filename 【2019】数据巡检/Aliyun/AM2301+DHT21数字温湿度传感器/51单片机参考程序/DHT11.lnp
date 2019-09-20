@@ -1,0 +1,3 @@
+"main.obj" 
+TO "DHT11" 
+RAMSIZE(256) 

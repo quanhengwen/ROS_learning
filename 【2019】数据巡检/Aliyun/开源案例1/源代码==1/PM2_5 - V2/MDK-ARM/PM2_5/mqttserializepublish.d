@@ -1,0 +1,11 @@
+pm2_5\mqttserializepublish.o: ..\MQTT\MQTTSerializePublish.c
+pm2_5\mqttserializepublish.o: ..\MQTT\MQTTPacket.h
+pm2_5\mqttserializepublish.o: ..\MQTT\MQTTConnect.h
+pm2_5\mqttserializepublish.o: ..\MQTT\MQTTPublish.h
+pm2_5\mqttserializepublish.o: ..\MQTT\MQTTSubscribe.h
+pm2_5\mqttserializepublish.o: ..\MQTT\MQTTUnsubscribe.h
+pm2_5\mqttserializepublish.o: ..\MQTT\MQTTFormat.h
+pm2_5\mqttserializepublish.o: ..\MQTT\StackTrace.h
+pm2_5\mqttserializepublish.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+pm2_5\mqttserializepublish.o: ..\MQTT\MQTTPacket.h
+pm2_5\mqttserializepublish.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

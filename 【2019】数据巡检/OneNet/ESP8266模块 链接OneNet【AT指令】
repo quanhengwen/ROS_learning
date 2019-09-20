@@ -1,0 +1,28 @@
+《 ESP8266模块串口直链OneNET（TCP透传）的AT语句》[20191920==By PCNOTme]
+
+
+============
+AT
+============
+AT+CWMODE=3
+============
+AT+RST
+============
+AT+CIFSR
+============
+AT+CWJAP="iPhoneNB","123456788"
+============
+AT+CIPSTART="TCP","183.230.40.33",80 
+============
+AT+CIPMODE=1
+============
+AT+CIPSEND
+============
+POST /devices/549607546/datapoints HTTP/1.1
+api-key: 7dutIOhvB3BPqXjriK8kpdFPjh0=
+Host:api.heclouds.com		[此处填写的是自己主页“产品概况”的“主APIkey”]
+Connection:close
+Content-Length:59			[打开一个Notepad++  可以看到此句命令字符长度]
+[此处务必空行]
+{"datastreams":[{"id":"TEMP","datapoints":[{"value":27}]}]}			[注意串口调试的时候不可出现中文字符]
+============
